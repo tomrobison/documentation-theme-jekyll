@@ -50,7 +50,7 @@
             <li><a href="#">{{ subcategory.title }}</a>
                 <ul>
                 {% for item in subcategory.items %}
-                  {% assign item_url = item | prepend:"/mydoc/" | append:".html" %}
+                  {% assign item_url = item | prepend:"/mydoc/" | append:"/" %}
 
                   {% if item_url == page.url %}
                     {% assign c = "current" %}
