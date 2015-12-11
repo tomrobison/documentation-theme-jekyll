@@ -27,3 +27,11 @@ theme_file: theme-green.css
 topnav_title: Jekyll Documentation Theme
 sidebar_tagline: Writers
 sidebar_version: Version 4.0
+
+defaults:
+  -
+    scope:
+      path: "mydoc"
+      type: "pages"
+    values:
+      layout: "page"
